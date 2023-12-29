@@ -58,9 +58,10 @@
     width: 270px;
     height: 320px;
     position: relative;
-    border: 1px solid lightgray;
+    border: 1px solid blue;
     border-radius: 10px;
     overflow: hidden;/* Ensure that the image won't overflow the container */
+    margin-bottom: 20px;
 }
 
 .hotel_images img{
@@ -80,6 +81,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding-right: 10px;
+    margin: 15px 30px;
 }
 
 .card2_sub3 {
