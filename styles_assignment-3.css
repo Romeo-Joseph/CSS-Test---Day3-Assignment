@@ -1,0 +1,101 @@
+.card1 {
+    width: 100%;
+    height: 50px;
+    background-color: lightblue;
+    border-radius: 10px;
+    display: flex; /*To arrange the components side by side i.e., horizontal*/
+    align-items: center; /*Vertical alignment*/ 
+    justify-content: center; /*Horizontal Alignment*/
+
+}
+
+.card2 {
+    width: 98%;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    position: relative;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+
+}
+
+.logo{
+    height: 70%;
+    align-items: center;
+}
+
+.card2_sub1 {
+    display: flex;
+    position: relative;
+    gap: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    height: 60%;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2_sub1 button{
+    background-color: rgb(191, 216, 224);
+    border: none;
+    border-radius: 10px;
+    width: 25%;
+    height: 80%;
+}
+
+.card2_sub2 {
+    display: flex;
+    gap: 10px;
+}
+
+.hotel_images {
+    width: 270px;
+    height: 320px;
+    position: relative;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    overflow: hidden;/* Ensure that the image won't overflow the container */
+}
+
+.hotel_images img{
+    width: 90%;
+    margin: 5px 10px;
+    border-radius: 10px;
+    height: 65%;
+}
+
+.hotel_images p{
+    margin: 5px 5px;
+}
+
+.main_menu {
+    display: flex;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.card2_sub3 {
+    border: 1px solid lightgray;
+    width: 6%;
+    height: 40%;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card2_sub3 img{
+    width: 30%;
+    margin: auto 5px;
+    
+}
